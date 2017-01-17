@@ -84,7 +84,11 @@ public class LFStoreLrcCache<K,V>{
 
     //移除
     public synchronized V remove(K key){
+        if (key == null){
+            return  null;
+        }
            return lruCache.remove(key);
+
     }
 
     //获取大小

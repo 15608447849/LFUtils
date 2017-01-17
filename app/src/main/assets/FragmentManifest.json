@@ -1,0 +1,28 @@
+[
+  {
+    "name": "横屏",
+    "classpath": "appmians.fragments.baselayer.LandscapeFrag",
+    "data": ""
+  },
+  {
+    "name": "竖屏",
+    "classpath": "appmians.fragments.baselayer.PortraitFrag",
+    "data": ""
+  },
+  {
+    "name":"标题栏",
+    "classpath":"appmians.fragments.sharedlayer.TitleShow",
+    "data":"'text':'网页名列表'"
+  },
+  {
+    "name":"内容显示",
+    "classpath":"appmians.fragments.sharedlayer.ContentShow",
+    "data":"'def_url':'http://www.yixieshi.com/20604.html'"
+  },
+  {
+    "name":"错误显示",
+    "classpath":"appmians.fragments.sharedlayer.ErrorPage",
+    "data":""
+  }
+]
+
